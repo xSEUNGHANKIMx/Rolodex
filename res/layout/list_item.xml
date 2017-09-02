@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvLastName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textColor="#43bd00"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvFirstName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textColor="#acacac" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textColor="#acacac" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvCompany"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textColor="#acacac" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvStartDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textColor="#acacac" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvBio"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textColor="#acacac" >
+    </TextView>
+
+    <ImageView
+        android:id="@+id/ivAvatar"
+        android:layout_gravity="center"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_launcher" />
+
+</LinearLayout>
